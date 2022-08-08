@@ -67,14 +67,6 @@
 }
 
 @media (max-width:1080px){
-   body{
-    background-color: green;
-   }
-
-   .container3{
-    max-width: 800px;
-   }
-
    .container4{
     margin-top: 10px;
    }

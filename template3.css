@@ -7,6 +7,7 @@
     background-color: rgb(2, 8, 36);
     display: inline-flex;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 #c5head{
@@ -85,15 +86,29 @@ div h5{
     font-size: 1.3rem;
 }
 
-@media (max-width:1280px){
+@media (max-width: 1266px){
     .container5{
         margin-top: 10px;
     }
+}
+
+@media (max-width:1130px){
 
     .imageStyle2{
         margin: 5px 5px 0px 5px;
     }
 
+    .imageStyle2{
+        margin: 5px 5px 0px 5px;
+        border: 2px solid rgb(131, 131, 11);  
+        height: 2.8rem;
+        width: 2.8rem;
+    }
+    
+    div h5{
+        font-size: 0.7rem;
+    }
+    
 }
 
 

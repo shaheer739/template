@@ -23,6 +23,7 @@
     
 }
 #image {
+    border: 2px solid rgb(131, 131, 11);
     height: 14rem;
     width: 14rem;
     border-radius: 10px;
@@ -37,6 +38,7 @@
 .container2 {
     flex: 10%;
     flex-direction: wrap;
+    display: block;
 }
 #h2 {
     display: block;
@@ -62,12 +64,18 @@
 @media (max-width:1280px) {     
     .container{
         flex-wrap: wrap;
-        align-items: center;     
         justify-content: center;
+        align-items: center;
+    }
+
+    #image {
+        height: 14rem;
+        width: 14rem;
+
     }
 
     #description {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .container1{
@@ -75,7 +83,8 @@
     } 
 
     .container2 {
+        max-width: 300px;
+        margin: auto;
         margin-top: 10px;
-        max-width: 200px;
     }
 }

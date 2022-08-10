@@ -69,7 +69,8 @@
     }
 
     #description {
-        font-size: 0.8rem;
+        font-size: 4px;
+        color: red;
     }
 
     .container1{

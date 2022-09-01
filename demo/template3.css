@@ -1,15 +1,12 @@
 .container5,.container6{
     color: white;
+    margin: 0px 10px;
     border: 5px solid rgb(131, 131, 11);
+    overflow: hidden;
     border-radius: 10px;
-    background-color: rgb(131, 131, 1);
-    display: block;
-    margin: 0px auto;
+    background-color: rgb(2, 8, 36);
+    display: inline-flex;
     text-align: center;
-}
-
-.container6{
-    margin-bottom: 10px;
 }
 
 #c5head{
@@ -48,7 +45,6 @@ div h5{
     position: relative;
     text-align: center;
     color: white;
-    background-color: rgb(2, 8, 36) ;
 }
 
 .letter{
@@ -89,33 +85,15 @@ div h5{
     font-size: 1.3rem;
 }
 
-@media (max-width: 1266px){
+@media (max-width:1280px){
     .container5{
         margin-top: 10px;
     }
-}
-
-@media (max-width:1130px){
 
     .imageStyle2{
         margin: 5px 5px 0px 5px;
     }
 
-    .imageStyle2{
-        margin: 5px 5px 0px 5px;
-        border: 2px solid rgb(131, 131, 11);  
-        height: 2.8rem;
-        width: 2.8rem;
-    }
-    
-    div h5{
-        font-size: 0.7rem;
-    }
-
-    #c5head{
-        font-size: 1rem;
-    }
-    
 }
 
 
